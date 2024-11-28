@@ -2,6 +2,7 @@ package com.example.springboot;
 
 import com.example.springboot.bean.Address;
 import com.example.springboot.bean.AppBean;
+import com.example.springboot.bean.Group;
 import com.example.springboot.bean.User;
 import com.example.springboot.config.AppConfig;
 import org.junit.jupiter.api.Test;
@@ -43,6 +44,16 @@ class Springboot310ConfigBindToBeanApplicationTests {
     @Test
     void test04() {
         System.out.println(address);
+        // Address{city='shanghai', street='pudong'}
+    }
+
+    @Autowired
+    private Group group;
+
+    @Test
+    void test05(){
+        System.out.println(group);  // Group{name='IT', leader='LaoDu', count=20}
+
     }
 
 }
