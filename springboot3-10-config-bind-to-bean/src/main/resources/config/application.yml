@@ -4,3 +4,28 @@ app:
     address:
       city: tianjing
       street: nankai
+
+app2:
+  abc:
+    #    names: [jack, tom, jerry]
+    names:
+      - jack
+      - tom
+      - jerry
+    addrArray:
+      - city: beijing
+        street: chaoyang
+      - city: shanghai
+        street: pudong
+    addressList:
+      - city: guangzhou
+        street: tianhe
+      - city: shenzhen
+        street: nanshan
+    addressMap:
+      addr1:
+        city: chengdu
+        street: jinjiang
+      addr2:
+        city: chongqing
+        street: jiangbei

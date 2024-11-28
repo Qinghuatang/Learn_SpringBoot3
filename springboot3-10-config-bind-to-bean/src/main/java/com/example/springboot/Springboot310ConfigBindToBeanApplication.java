@@ -1,5 +1,6 @@
 package com.example.springboot;
 
+import com.example.springboot.bean.AppBean;
 import com.example.springboot.bean.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +12,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 // 优质的 spring/boot/data/security/cloud 框架中文文档尽在 => https://springdoc.cn
 @SpringBootApplication
 // 第三种：在主入口程序上添加以下注解
- @EnableConfigurationProperties(User.class)	// 启用 把配置文件中的信息绑定到bean上 的功能
+ @EnableConfigurationProperties({User.class, AppBean.class})	// 启用 把配置文件中的信息绑定到bean上 的功能
 
 // 第四种方式：在主入口程序上添加以下注解
 //@ConfigurationPropertiesScan(basePackages = "com.example.springboot.bean")	// 扫描指定包下的所有类，看看是否有@ConfigurationProperties注解
