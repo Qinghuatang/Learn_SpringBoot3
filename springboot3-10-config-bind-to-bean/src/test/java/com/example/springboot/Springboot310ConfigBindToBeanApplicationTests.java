@@ -1,9 +1,6 @@
 package com.example.springboot;
 
-import com.example.springboot.bean.Address;
-import com.example.springboot.bean.AppBean;
-import com.example.springboot.bean.Group;
-import com.example.springboot.bean.User;
+import com.example.springboot.bean.*;
 import com.example.springboot.config.AppConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,7 +50,14 @@ class Springboot310ConfigBindToBeanApplicationTests {
     @Test
     void test05(){
         System.out.println(group);  // Group{name='IT', leader='LaoDu', count=20}
+    }
 
+    @Autowired
+    private Person person;
+
+    @Test
+    void test06(){
+        System.out.println(person);  // Person{name='张三', age=20}
     }
 
 }

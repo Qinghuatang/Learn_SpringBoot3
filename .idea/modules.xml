@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot3.iml" filepath="$PROJECT_DIR$/SpringBoot3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot3-10-config-bind-to-bean/springboot3-10-config-bind-to-bean.iml" filepath="$PROJECT_DIR$/springboot3-10-config-bind-to-bean/springboot3-10-config-bind-to-bean.iml" />
     </modules>
   </component>
 </project>
