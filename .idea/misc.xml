@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/springboot3-09-external-config/pom.xml" />
         <option value="$PROJECT_DIR$/springboot3-10-config-bind-to-bean/pom.xml" />
         <option value="$PROJECT_DIR$/springboot3-11-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot3-12-mybatis/pom.xml" />
       </list>
     </option>
   </component>

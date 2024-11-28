@@ -1,0 +1,18 @@
+# 数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+
+# MyBatis配置
+mybatis:
+  # 1.起别名
+  type-aliases-package: com.example.springboot.bean
+  # 2.告诉springboot mapper.xml文件的位置
+  mapper-locations: classpath:/mapper/*.xml
+  # 3.启用自动映射数据库表的列名和bean的属性名
+  configuration:
+    map-underscore-to-camel-case: true
