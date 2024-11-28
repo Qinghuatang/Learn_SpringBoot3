@@ -1,0 +1,6 @@
+app:
+  xyz:
+    name: lucy_yml
+    address:
+      city: tianjing
+      street: nankai
