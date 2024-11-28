@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Autowired" />
+    </list>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,6 +15,7 @@
         <option value="$PROJECT_DIR$/springboot3-04-core-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/springboot3-05-junit/pom.xml" />
         <option value="$PROJECT_DIR$/springboot3-06-properties-location/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot3-07-value-annotation/pom.xml" />
       </list>
     </option>
   </component>
