@@ -1,0 +1,13 @@
+---
+myapp:
+  username: 'lu\ncy'
+  email: "lucy\n@123"
+  age: 20
+  gender: false
+
+---
+myapp2:
+  username: 'zhangsan'
+  email: "zhangsan@123"
+  age: 22
+  gender: true
