@@ -29,3 +29,8 @@ app2:
       addr2:
         city: chongqing
         street: jiangbei
+
+orther:
+  abc:
+    city: shanghai
+    street: pudong

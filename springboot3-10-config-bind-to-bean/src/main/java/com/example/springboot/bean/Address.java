@@ -3,8 +3,7 @@ package com.example.springboot.bean;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
-@ConfigurationProperties
+// 假设这个类不是我们写的，是第三方提供的，我们无法修改
 public class Address {
 
     private String city;
