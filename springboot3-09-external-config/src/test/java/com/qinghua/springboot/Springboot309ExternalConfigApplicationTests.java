@@ -14,6 +14,11 @@ class Springboot309ExternalConfigApplicationTests {
 	@Test
 	void test() {
 		appConfig.printInfo();
+
+		/*mysqlUsername: root
+		mysqlPassword: 789789
+		redisHost: localhost
+		redisPort: 6379*/
 	}
 
 }
