@@ -60,4 +60,18 @@ class Springboot310ConfigBindToBeanApplicationTests {
         System.out.println(person);  // Person{name='张三', age=20}
     }
 
+    @Autowired
+    private SomeBean someBean;
+
+    @Test
+    void test07(){
+        someBean.doSome();
+        /*
+        test
+        dev
+        prod
+        nankai
+        */
+    }
+
 }
