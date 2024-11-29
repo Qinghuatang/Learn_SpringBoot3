@@ -20,6 +20,7 @@
         <module name="springboot3-10-config-bind-to-bean" />
         <module name="springboot3-01-first" />
         <module name="springboot3-11-aop" />
+        <module name="builder-pattern" />
       </profile>
     </annotationProcessing>
   </component>

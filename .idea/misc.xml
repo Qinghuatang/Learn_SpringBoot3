@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/springboot3-11-aop/pom.xml" />
         <option value="$PROJECT_DIR$/springboot3-12-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/lombok-test/pom.xml" />
+        <option value="$PROJECT_DIR$/builder-pattern/pom.xml" />
       </list>
     </option>
   </component>
