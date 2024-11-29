@@ -21,9 +21,22 @@ public class Springboot315AutoConfigurationApplication {
         String[] allBeanNames = applicationContext.getBeanDefinitionNames();
         for (String allBeanName : allBeanNames) {
             // System.out.println(allBeanName);
-            if (allBeanName.equals("appBean")) {
+            /*if (allBeanName.equals("appBean")) {
+                System.out.println(allBeanName);
+            }*/
+
+            /*if ("a".equals(allBeanName)){
+                System.out.println(allBeanName);
+            }else if ("b".equals(allBeanName)){
+                System.out.println(allBeanName);
+            }*/
+
+            if ("test1".equals(allBeanName)){
+                System.out.println(allBeanName);
+            }else if ("test2".equals(allBeanName)){
                 System.out.println(allBeanName);
             }
+            // 注意：如果把web启动器注释掉，那么DispatcherServlet就不会被加载，那么A和B就不会被加载
         }
 
         applicationContext.close();
