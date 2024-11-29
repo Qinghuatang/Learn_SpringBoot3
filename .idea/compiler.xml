@@ -2,19 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot3-09-external-config" />
-        <module name="springboot3-08-yml" />
         <module name="springboot3-03-use-idea-plugin" />
         <module name="springboot3-02-use-spring-initializr" />
         <module name="springboot3-05-junit" />
         <module name="springboot3-06-properties-location" />
         <module name="springboot3-12-mybatis" />
-        <module name="springboot3-04-core-annotation" />
         <module name="springboot3-07-value-annotation" />
+        <module name="lombok-test" />
+        <module name="springboot3-08-yml" />
+        <module name="springboot3-04-core-annotation" />
         <module name="springboot3-10-config-bind-to-bean" />
         <module name="springboot3-01-first" />
         <module name="springboot3-11-aop" />
