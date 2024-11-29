@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot3-09-external-config" />
         <module name="springboot3-13-mybatis-generator" />
+        <module name="springboot3-15-auto-configuration" />
         <module name="springboot3-14-ssm" />
         <module name="springboot3-03-use-idea-plugin" />
         <module name="springboot3-02-use-spring-initializr" />
@@ -42,6 +43,7 @@
       <module name="springboot3-12-mybatis" options="-parameters" />
       <module name="springboot3-13-mybatis-generator" options="-parameters" />
       <module name="springboot3-14-ssm" options="-parameters" />
+      <module name="springboot3-15-auto-configuration" options="-parameters" />
     </option>
   </component>
 </project>
